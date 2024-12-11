@@ -1,10 +1,10 @@
 ---
 
-# Mystic Runestone Airdrop Tool Backend
+# Asset distribution Tool Backend
 
-## Overview
+## Overv all
 
-The Runestone Airdrop Backend is a server application that facilitates the airdrop of Runestone tokens. The backend is developed using Node.js and Express.js and includes API endpoints for various functionalities such as redeeming fees, estimating transaction fees, and managing different amounts for airdrops. The project also integrates Swagger UI for API documentation.
+The asset distribution Backend is a server application that facilitates asset distribution of Runes tokens. The backend is developed using Node.js and Express.js and includes API endpoints for various functionalities such as redeeming fees, estimating transaction fees, and managing different amount of rune token asset distribution. The project also integrates Swagger UI for API documentation.
 
 ## Project Structure
 
@@ -57,7 +57,7 @@ env
 1. Clone the repository:
 
    ```
-   git clone https://github.com/leionion/rune-airdrop-backend.git
+   git clone https://github.com/runemoondragon/asset-distribution
    cd rune-airdrop-backend
    ```
 
@@ -150,13 +150,13 @@ The base URL for the API is:
 - **Endpoint:** `/large-different-amount-airdrop`
 - **HTTP Method:** POST
 
-#### Same Amount Rune Airdrop
+#### Same Amount Rune Token Distribution
 
-- **Description:** Transfer the same amount of Rune tokens to different addresses
+- **Description:** Transfer he same amount of Rune tokens to different addresses
 - **Endpoint:** `/same-amount`
 - **HTTP Method:** POST
 
-#### Calculate Runestone Transaction Fee
+#### Calculate token distribution Transaction Fee
 
 - **Description:** Calculate the fee for a runestone transaction
 - **Endpoint:** `/runestone-fee`
@@ -164,13 +164,13 @@ The base URL for the API is:
 
 #### Estimate Different Amount Rune Airdrop
 
-- **Description:** Estimate the different amount Rune Airdrop
+- **Description:** Estimate the different amount token distribution
 - **Endpoint:** `/estimate/different-amount`
 - **HTTP Method:** POST
 
-#### Estimate Same Amount Rune Airdrop
+#### Estimate Same Amount Rune token distribution
 
-- **Description:** Estimate the same amount Rune Airdrop
+- **Description:** Estimate the same amount Rune token distribution
 - **Endpoint:** `/estimate/same-amount`
 - **HTTP Method:** POST
 
